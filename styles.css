@@ -1,3 +1,118 @@
-.body {
-  background-color: black;
+#title {
+  background-color: #e4f6f6;
+  padding-bottom: 5%;
+}
+
+p{
+  font-family: Montserrat', sans-serif;
+}
+
+.nav-link {
+  margin: 10px;
+  color: #66bfbf;
+}
+
+.navbar-toggler {
+  background-color: #66bfbf;
+}
+
+.navbar-toggler-icon {
+  background-color: #66bfbf;
+}
+.navbar-nav {
+  text-align: right;
+}
+
+.introduction {
+  margin: 2% 6%;
+}
+.greeting{
+  font-family: "Source Code Pro", monospace;
+  font-size: xx-large;
+  color: #11999e;
+}
+h1 {
+  color: #66bfbf;
+  font-family: "Sono", sans-serif;
+  font-size: xxx-large;
+}
+
+#pronouns {
+  font-family: "Source Code Pro", monospace;
+  color: #11999e;
+  font-size: large;
+}
+
+.photo {
+  padding-right: 3%;
+  padding-left: 0;
+}
+.profile-photo {
+  width: 18%;
+  margin: 2% auto 2%;
+}
+
+.about-me {
+  text-align: center;
+  margin: 3% 10% 4%;
+}
+
+.about-me-description{
+  padding: 0 12% 0;
+  text-align: justify;
+  font-size: larger;
+}
+h2 {
+  color: #11999e;
+  font-family: "Source Code Pro", monospace;
+}
+.studies{
+  text-align: center;
+  margin: 3% 2% 4%;
+}
+
+.studies-row{
+  margin-bottom: 4%;
+}
+.certifications{
+  text-align: justify;
+  padding: 0 5% 0;
+  margin: 5% 0 3%;
+}
+
+.courses{
+  padding: 0 3% 0;
+}
+
+.studies-icons{
+  font-size: xxx-large;
+  color: #11999e;
+}
+
+.studies-icons:hover{
+  color: #66bfbf;
+}
+.projects{
+  text-align: center;
+  margin: 3% 2% 4%;
+}
+
+footer{
+  text-align: center;
+  background-color: #11999e;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+}
+
+.footer-icons{
+  font-size: xx-large;
+  margin: 2% 2% 2%;
+}
+hr {
+  color: #bdd7d7;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  margin: auto;
 }
