@@ -7,8 +7,12 @@ p{
   font-family: Montserrat', sans-serif;
 }
 
+.navbar-cat{
+  width: 30%;
+  margin: 0 18% 0;
+}
 .nav-link {
-  margin: 10px;
+  margin: 15px;
   color: #66bfbf;
 }
 
@@ -21,10 +25,12 @@ p{
 }
 .navbar-nav {
   text-align: right;
+  margin-left: 40%;
 }
 
 .introduction {
   margin: 2% 6%;
+  text-align: center;
 }
 .greeting{
   font-family: "Source Code Pro", monospace;
@@ -55,12 +61,14 @@ h1 {
 .about-me {
   text-align: center;
   margin: 3% 10% 4%;
+  padding: 5%;
 }
 
 .about-me-description{
   padding: 0 12% 0;
   text-align: justify;
   font-size: larger;
+  margin-top: 2%;
 }
 h2 {
   color: #11999e;
@@ -104,6 +112,9 @@ footer{
   font-family: "Source Code Pro", monospace;
 }
 
+.contact{
+  margin-top: 10%;
+}
 .footer-icons{
   font-size: xx-large;
   margin: 2% 2% 2%;
@@ -116,3 +127,4 @@ hr {
   width: 5%;
   margin: auto;
 }
+
