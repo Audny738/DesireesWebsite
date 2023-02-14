@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>👩🏼‍💻Desiree Correa</title>
+    <!--Bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Sono:wght@600&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <!--Bootstap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/43124feaf5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href=""
+            ><img
+              src="https://em-content.zobj.net/source/skype/289/cat_1f408.png"
+              alt="cat-emoji"
+              class="navbar-cat"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">about me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#studies">studies and courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#get-in-touch">get in touch</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-lg-6 introduction">
+          <p class="greeting">Hello world!</p>
+          <h1>I'm Desireé Correa</h1>
+          <span id="pronouns">(she/her)</span>
+        </div>
+        <div class="col-lg-4 photo">
+          <div
+            style="
+              width: 100%;
+              height: 0;
+              padding-bottom: 100%;
+              position: relative;
+            "
+          >
+            <iframe
+              src="https://giphy.com/embed/HQHwvSBSy7s0AXOlWt"
+              width="100%"
+              height="100%"
+              style="position: absolute"
+              frameborder="0"
+              class="giphy-embed"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-me" id="about-me">
+      <h2>About Me</h2>
+      <div class="row">
+        <div class="col">
+          <img
+            class="profile-photo"
+            src="images/photo-profile-modified.png"
+            alt="Desireé's Profile Photo"
+          />
+          <p class="about-me-description">
+            I am a cat lover, self-proclaimed cinephile, but mostly, a Software
+            Engineer Student currently focus on Backend Development where I try
+            to and help giving solutions and ideas by applying my superpower:
+            continuous learning and constancy.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="studies" id="studies">
+      <h2>Studies and Courses</h2>
+      <div class="certifications">
+        <div class="row studies-row">
+          <div class="col-lg-6 courses">
+            <i class="fa-solid fa-desktop studies-icons"></i>
+            <div class="studies-info">
+              <h4>Software Engineer Bachelor</h4>
+              <p>Universidad Autónoma de Yucatán, 2019-2024</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 courses">
+            <i class="fa-brands fa-git-alt studies-icons"></i>
+            <div class="studies-info">
+              <h4>Git and GitHub Bootcamp</h4>
+              <p>UDEMY, Colt Steele, 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="row studies-row">
+          <div class="col-lg-6 courses">
+            <i class="fa-solid fa-code studies-icons"></i>
+            <div class="studies-info">
+              <h4>Web Development Course 2022</h4>
+              <p>UDEMY, Dr. Angela Yu, 2022</p>
+            </div>
+          </div>
+          <div class="col-lg-6 courses">
+            <i class="fa-brands fa-python studies-icons"></i>
+            <div class="studies-info">
+              <h4>Flask-API</h4>
+              <p>UDEMY, José Salvatierra, 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="images/API.jpg" class="card-img-top" alt="python-api" />
+            <div class="card-body">
+              <h5 class="card-title">T.O.B.A.R.A</h5>
+              <p class="card-text">
+                Development Team Member on the API that reduces boolean
+                expressions.
+              </p>
+              <a
+                href="https://github.com/OutatimeSoftware/TOBARA"
+                class="btn button"
+                >See more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="images/DFlow.jpg"
+              class="card-img-top"
+              alt="flashcard-projects"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Quizpeak</h5>
+              <p class="card-text">
+                Team Lider on a study app based on flashcards, that uses the
+                tool DialogFlow.
+              </p>
+              <a
+                href="https://github.com/Audny738/POO_Project"
+                class="btn button"
+                >See more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="images/Women Who Code Logo.webp"
+              class="card-img-top"
+              alt="wwcode"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Women Who Code MID</h5>
+              <p class="card-text">
+                Volunteer Member at the formation-preparation team and the
+                mentorship program.
+              </p>
+              <a href="#" class="btn button">See more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+  <footer id="get-in-touch">
+    <div class="contact">
+      <h5 class="contact-text">Get in touch</h5>
+      <div
+        class="icons"
+        onclick="window.open('https://www.linkedin.com/in/desiree-correa-03a8a4240/')"
+      >
+        <i class="fa-brands fa-linkedin footer-icons" id="linkedIn"></i>
+      </div>
+      <div class="icons" onclick="window.open('https://github.com/Audny738/')">
+        <i class="fa-brands fa-github footer-icons"></i>
+      </div>
+      <div class="icons">
+        <i class="fa-solid fa-envelope footer-icons"></i>
+      </div>
+    </div>
+  </footer>
+</html>
