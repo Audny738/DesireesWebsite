@@ -136,14 +136,22 @@ footer {
   background-color: #11999e;
   color: white;
   font-family: "Source Code Pro", monospace;
+  padding: 10% auto;
 }
 
 .contact {
   margin-top: 10%;
+  padding: 10% auto;
+}
+.contact-text {
+  padding-top: 5%;
 }
 .footer-icons {
   font-size: xx-large;
   margin: 2% 2% 2%;
+}
+.icons {
+  display: inline;
 }
 hr {
   color: #bdd7d7;
